@@ -1,16 +1,66 @@
-# React + Vite
+# React Reusable Card Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application demonstrating reusable Card and Button components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Reusable React components
+- Props for dynamic names, email addresses, and button labels
+- Responsive card layout using CSS Grid
+- Smooth hover effects
+- Clean and simple UI
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/S26480/React-reusable-card-components.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd React-reusable-card-components
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── button/
+│   │   └── Button.jsx
+│   └── card/
+│       └── Card.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Author
+
+Sameeha
+
+- LinkedIn: [Sameeha](https://www.linkedin.com/in/sameeha-a/)
